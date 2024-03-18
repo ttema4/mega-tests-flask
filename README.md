@@ -9,3 +9,7 @@
 * В БД 3 таблицы: пользователи, вопросы и результаты.
 
 # Фото:
+![first photo](https://raw.githubusercontent.com/ttema4/mega-tests-flask/966b463353ed8ec4a04ad303665180eaedbc5055/IMG_1.jpeg)
+![second photo](https://raw.githubusercontent.com/ttema4/mega-tests-flask/966b463353ed8ec4a04ad303665180eaedbc5055/IMG_2.jpeg)
+![third photo](https://raw.githubusercontent.com/ttema4/mega-tests-flask/966b463353ed8ec4a04ad303665180eaedbc5055/IMG_3.jpeg)
+![fourth photo](https://raw.githubusercontent.com/ttema4/mega-tests-flask/966b463353ed8ec4a04ad303665180eaedbc5055/IMG_4.jpeg)
