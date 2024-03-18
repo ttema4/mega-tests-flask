@@ -8,6 +8,9 @@
 * Регистрация и вход.
 * В БД 3 таблицы: пользователи, вопросы и результаты.
 
+# Тестирование:
+* В систему уже загружен тест с номером 1, его можно пройти.
+
 # Фото:
 ![first photo](https://raw.githubusercontent.com/ttema4/mega-tests-flask/966b463353ed8ec4a04ad303665180eaedbc5055/IMG_1.jpeg)
 ![second photo](https://raw.githubusercontent.com/ttema4/mega-tests-flask/966b463353ed8ec4a04ad303665180eaedbc5055/IMG_2.jpeg)
