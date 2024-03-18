@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{# url_for('static', filename='css/style.css') #}" />
+    <title>Профиль</title>
+    <style>
+    .form-control
+    {
+    margin: 2%;
+    background: #cfcfcf;
+    }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a href="/" class="navbar-brand d-flex align-items-center">
+                <strong>МегаТесты</strong>
+            </a>
+            <a href="/profile">
+                <button type="button" class="btn btn-dark">Профиль</button>
+            </a>
+        </div>
+    </nav>
+</header>
+<h2 style="margin-left: 250px; margin-top: 20px">Ваш профиль:</h2>
+<div>
+    <h4 style="margin-left: 250px; margin-top: 20px">Адрес электронной почты:</h4>
+    <h6 style="margin-left: 250px">{{ email }}</h6>
+    <h4 style="margin-left: 250px; margin-top: 10px">Имя пользователя:</h4>
+    <h6 style="margin-left: 250px">{{ un }}</h6>
+    <form action="/profile" method="post">
+    <button style="margin-left: 250px; margin-top: 10px" class="btn btn-primary" type="submit">Выйти</button>
+    </form>
+</div>
+    <a href="/">
+        <button style="margin-left: 250px; margin-top: 10px" type="submit" class="btn btn-primary">На главную</button>
+    </a>
+<div>
+</div>
+</body>
+</html>
